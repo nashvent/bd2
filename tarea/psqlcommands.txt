@@ -1,0 +1,8 @@
+sudo -u postgres psql /* Login */
+
+\c b2   /* Seleccionar base de datos */
+\l 		/* Ver bases de datos */
+\dt 	/* Ver tablas */ 
+\q		/* Salir de cli psql */
+
+\i psqlprocedure.sql 
